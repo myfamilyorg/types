@@ -1,12 +1,19 @@
 #ifndef _TYPES_H__
 #define _TYPES_H__
 
+#ifndef NULL
 #define NULL ((void *)0)
+#endif
+
 #define true ((_Bool)1)
 #define false ((_Bool)0)
 
+#ifndef UINT8_MIN
 #define UINT8_MIN 0x0
+#endif
+#ifndef UINT16_MIN
 #define UINT16_MIN 0x0
+#endif
 #define UINT32_MIN 0x0
 #define UINT64_MIN 0x0
 #define UINT128_MIN 0x0
